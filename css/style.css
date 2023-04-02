@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oxanium", cursive;
+}
+body {
+  text-align: center;
+  background: linear-gradient(
+    110.4deg,
+    rgb(255, 196, 254) 9.6%,
+    rgb(251, 229, 123) 91%
+  );
+  min-height: 100vh;
+}
+main {
+  display: inline-block;
+  padding: 15px;
+  margin: 2%;
+  position: relative;
+}
+.pokedex {
+  width: 100%;
+  max-width: 425px;
+}
+.pokemon_img {
+  position: absolute;
+  left: 40%;
+  bottom: 55%;
+  transform: translate(-33%, -25%);
+  height: 5%;
+}
+.pokemon_data {
+  position: absolute;
+  font-weight: 600;
+  color: #aaa;
+  top: 53%;
+  right: 28%;
+  font-size: clamp(8px, 5vw, 25px);
+}
+
+.pokemon_name {
+  color: gray;
+  text-transform: capitalize;
+}
