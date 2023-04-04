@@ -82,6 +82,6 @@ main {
   box-shadow: -2px 3px 0 #222, -4px 4px 0 black;
 }
 .button:active {
-  box-shadow: 4px 4px 0 #222;
+  box-shadow: 4px 4px 0 #e90909;
   font-size: 0.9rem;
 }
