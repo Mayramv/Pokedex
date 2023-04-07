@@ -17,7 +17,7 @@ body {
 }
 main {
   display: inline-block;
-  padding: 15px;
+  padding: 30px;
   margin: 2%;
   position: relative;
 }
@@ -47,9 +47,9 @@ main {
 }
 .form {
   position: absolute;
-  width: 65%;
+  width: 62%;
   top: 65%;
-  left: 13.5%;
+  left: 16.5%;
 }
 .input_search {
   width: 100%;
@@ -64,14 +64,14 @@ main {
 }
 .buttons {
   position: absolute;
-  bottom: 10%;
-  left: 13.5%;
+  bottom: 13%;
+  left: 15%;
   width: 65%;
   display: flex;
   gap: 7.5%;
 }
 .button {
-  width: 50%;
+  width: 44%;
   padding: 4%;
   border: 2px solid #333;
   border-radius: 5px;
