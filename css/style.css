@@ -85,3 +85,19 @@ main {
   box-shadow: 4px 4px 0 #e90909;
   font-size: 0.9rem;
 }
+
+.attribution {
+  font-size: 18px;
+  color: brown;
+  -webkit-text-stroke-width: 0.55px;
+  -webkit-text-stroke-color: #070707;
+}
+footer {
+  position: absolute;
+  bottom: 1%;
+  left: 13%;
+  width: 80%;
+  display: flex;
+  gap: 33%;
+  align-items: center;
+}
